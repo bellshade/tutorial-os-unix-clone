@@ -156,7 +156,7 @@ GD 00074621500i[CPU ] | SEG sltr(indeks|ti|rpl) batas dasar G D
 0074621500i[CPU ] >> jmp .+0xffffffffe (0x00100027) : EBFE
 ```
 
-![genesis](.github/generate_kode/genesis_bochs.png)
+![genesis](../.github/generate_kode/genesis_bochs.png)
 
 Perhatikan berapa nilai EAX? 0xDEADBABA - nilai kembalian ``main()``. selamat, kita sekarang memiliki multiboot trampolin assembly yang 
 kompatibel, dan kita siap untuk mulai display kepada layar.
